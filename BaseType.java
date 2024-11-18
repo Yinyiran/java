@@ -1,8 +1,9 @@
 public class BaseType {
   public static void main(String[] args) {
-    doubleFn();
-    charFn();
-    autoTransfer();
+    // doubleFn();
+    // charFn();
+    // autoTransfer();
+    array();
   }
 
   public static void doubleFn() {
@@ -35,6 +36,16 @@ public class BaseType {
     String s3 = "hello";
     int i3 = 200;
     System.err.println(s3 + '-' + b3 + '-' + i3);
+  }
+
+  public static void array() {
+    int[] arr = new int[10];
+    int[] arr2 = new int[20];
+    arr[0] = 1;
+    System.err.println(arr[0]);
+    System.err.println(arr2.length);
+    int[] arr4 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+    System.err.println(arr4);
   }
 
 }

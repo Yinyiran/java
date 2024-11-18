@@ -17,9 +17,14 @@ public class Identity {
     BigDecimal c = new BigDecimal("10.021561315");
     System.err.println(c);
     char chars = '男';
-    String str = "lalalalalllalallal你好啊但是吧潍坊";
+    String str = """
+        lalalalalllalallal你好啊但是吧潍坊
+          dfawefae
+        afwefaw
+        """;
     System.err.println(chars);
     System.err.println(str);
+
   }
 
   /**
